@@ -76,5 +76,7 @@ class WhatToEat:
 
 if __name__ == '__main__':
     wte = WhatToEat()
-    wte.add_food('西红柿炒鸡蛋')
-    wte.random_select_food()
+    i = 1
+    while i<=1000:
+        wte.random_select_food()
+        i += 1
